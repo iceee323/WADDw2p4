@@ -38,7 +38,6 @@ header {
 
 ul {
     padding: 0%;
-
 }
 
 nav li{
@@ -46,7 +45,6 @@ nav li{
     background-color: rgb(244, 233, 255);
     width: 24%;
     text-align: center;
-    
 }
 
 nav a{
@@ -101,6 +99,17 @@ main {
 aside {
     display: inline-block;
     width: 25%
+}
+
+.story-preview{
+    display: inline-block;
+}
+
+.story-preview a{
+    display: block;
+    text-align: center;
+    line-height: 4rem; /* really stupid way of doing this (no space between caption and pic) but hey at least it works */
+    height: 5rem;
 }
 
 footer {
