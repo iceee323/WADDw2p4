@@ -5,7 +5,8 @@
 #content-area {
     background-color: white;
     margin: 1em;
-    /* position: absolute; */ /*or else margin left bigger than right*/
+    /* position: absolute; */
+    /*or else margin left bigger than right*/
 }
 
 header {
@@ -29,7 +30,7 @@ header {
     margin: 8px;
 }
 
-#date{
+#date {
     display: inline-block;
     text-align: right;
     width: 39%;
@@ -40,29 +41,34 @@ ul {
     padding: 0%;
 }
 
-nav li{
+nav li {
     display: inline-block;
     background-color: rgb(244, 233, 255);
     width: 24%;
     text-align: center;
 }
 
-nav a{
+nav a {
     display: block;
     line-height: 2rem;
 }
 
 nav a:hover {
- background-color: blueviolet;
- color: white;
+    background-color: blueviolet;
+    color: white;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -91,7 +97,7 @@ main {
 .current-story figcaption {
     text-align: center;
     color: black;
-    background-color: rgba(0,  0,  0,  0.40);
+    background-color: rgba(0, 0, 0, 0.40);
     margin-top: -1.7em;
     /* z-index: 1; */
 }
@@ -101,14 +107,15 @@ aside {
     width: 25%
 }
 
-.story-preview{
+.story-preview {
     display: inline-block;
 }
 
-.story-preview a{
+.story-preview a {
     display: block;
     text-align: center;
-    line-height: 4rem; /* really stupid way of doing this (no space between caption and pic) but hey at least it works */
+    line-height: 4rem;
+    /* really stupid way of doing this (no space between caption and pic) but hey at least it works */
     height: 5rem;
 }
 
